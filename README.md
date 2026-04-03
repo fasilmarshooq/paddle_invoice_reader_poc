@@ -123,6 +123,17 @@ docker exec -it paddle-ai bash
 docker-compose up --build
 ```
 
+### Build & Push
+```bash
+docker build -t ghcr.io/fasilmarshooq/invoicereaderpoc:latest .
+docker push ghcr.io/fasilmarshooq/invoicereaderpoc:latest
+```
+
+### Multi-Platform Build & Push (requires buildx)
+```bash
+docker buildx build --builder multiplatform --platform linux/amd64,linux/arm64 -t ghcr.io/fasilmarshooq/invoicereaderpoc:latest --push .
+```
+
 ## Requirements
 
 - Docker (with docker-compose)
