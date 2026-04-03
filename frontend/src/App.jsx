@@ -106,7 +106,7 @@ function App() {
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <h1 className="text-3xl font-bold text-gray-900">📄 Paddle.AI</h1>
+          <h1 className="text-3xl font-bold text-gray-900">OCR Inf</h1>
         </div>
       </header>
 
@@ -263,7 +263,7 @@ function App() {
 
       {/* Footer */}
       <footer className="mt-12 pb-8 text-center text-gray-600 text-sm">
-        <p>Paddle AI ❤️</p>
+        
       </footer>
     </div>
   );
